@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 720 620" font-family="Helvetica, Arial, sans-serif">
+<title>Binary display reference - all 16 LED patterns</title>
+
+<rect x="0" y="0" width="720" height="620" fill="#FFFFFF"/>
+
+<text x="360" y="38" text-anchor="middle" font-size="19" font-weight="600" fill="#1A1A18">Binary Display Reference</text>
+<text x="360" y="60" text-anchor="middle" font-size="13" fill="#6B6A66">Filled = LED on · PB10 is the MSB, PB0 the LSB</text>
+
+<text x="70" y="100" font-size="12" font-weight="700" fill="#1A1A18">Dec</text>
+<text x="150" y="100" font-size="12" font-weight="700" fill="#1A1A18">Binary</text>
+<text x="290" y="100" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1A18">PB10</text>
+<text x="290" y="114" text-anchor="middle" font-size="10" fill="#8A8880">8</text>
+<text x="370" y="100" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1A18">PB2</text>
+<text x="370" y="114" text-anchor="middle" font-size="10" fill="#8A8880">4</text>
+<text x="450" y="100" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1A18">PB1</text>
+<text x="450" y="114" text-anchor="middle" font-size="10" fill="#8A8880">2</text>
+<text x="530" y="100" text-anchor="middle" font-size="12" font-weight="700" fill="#1A1A18">PB0</text>
+<text x="530" y="114" text-anchor="middle" font-size="10" fill="#8A8880">1</text>
+
+<line x1="55" y1="124" x2="665" y2="124" stroke="#B8B5AA" stroke-width="1.2"/>
+
+<g font-size="13" fill="#2C2C2A">
+<text x="70" y="152">0</text><text x="150" y="152" font-family="monospace">0000</text>
+<circle cx="290" cy="147" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="370" cy="147" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="450" cy="147" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="530" cy="147" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+
+<text x="70" y="182">1</text><text x="150" y="182" font-family="monospace">0001</text>
+<circle cx="290" cy="177" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="370" cy="177" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="450" cy="177" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="530" cy="177" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+
+<text x="70" y="212">2</text><text x="150" y="212" font-family="monospace">0010</text>
+<circle cx="290" cy="207" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="370" cy="207" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="450" cy="207" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="530" cy="207" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+
+<text x="70" y="242">3</text><text x="150" y="242" font-family="monospace">0011</text>
+<circle cx="290" cy="237" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="370" cy="237" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="450" cy="237" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="530" cy="237" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+
+<text x="70" y="272">4</text><text x="150" y="272" font-family="monospace">0100</text>
+<circle cx="290" cy="267" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="370" cy="267" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="450" cy="267" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="530" cy="267" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+
+<text x="70" y="302">5</text><text x="150" y="302" font-family="monospace">0101</text>
+<circle cx="290" cy="297" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="370" cy="297" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="450" cy="297" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="530" cy="297" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+
+<text x="70" y="332">6</text><text x="150" y="332" font-family="monospace">0110</text>
+<circle cx="290" cy="327" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="370" cy="327" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="450" cy="327" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="530" cy="327" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+
+<text x="70" y="362">7</text><text x="150" y="362" font-family="monospace">0111</text>
+<circle cx="290" cy="357" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="370" cy="357" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="450" cy="357" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="530" cy="357" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+
+<text x="70" y="392">8</text><text x="150" y="392" font-family="monospace">1000</text>
+<circle cx="290" cy="387" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="370" cy="387" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="450" cy="387" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="530" cy="387" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+
+<text x="70" y="422">9</text><text x="150" y="422" font-family="monospace">1001</text>
+<circle cx="290" cy="417" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="370" cy="417" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="450" cy="417" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="530" cy="417" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+
+<text x="70" y="452">10</text><text x="150" y="452" font-family="monospace">1010</text>
+<circle cx="290" cy="447" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="370" cy="447" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="450" cy="447" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="530" cy="447" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+
+<text x="70" y="482">11</text><text x="150" y="482" font-family="monospace">1011</text>
+<circle cx="290" cy="477" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="370" cy="477" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="450" cy="477" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="530" cy="477" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+
+<text x="70" y="512">12</text><text x="150" y="512" font-family="monospace">1100</text>
+<circle cx="290" cy="507" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="370" cy="507" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="450" cy="507" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="530" cy="507" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+
+<text x="70" y="542">13</text><text x="150" y="542" font-family="monospace">1101</text>
+<circle cx="290" cy="537" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="370" cy="537" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="450" cy="537" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+<circle cx="530" cy="537" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+
+<text x="70" y="572">14</text><text x="150" y="572" font-family="monospace">1110</text>
+<circle cx="290" cy="567" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="370" cy="567" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="450" cy="567" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="530" cy="567" r="9" fill="#F5F3EC" stroke="#BC2F1E" stroke-width="1.2"/>
+
+<text x="70" y="602">15</text><text x="150" y="602" font-family="monospace">1111</text>
+<circle cx="290" cy="597" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="370" cy="597" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="450" cy="597" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+<circle cx="530" cy="597" r="9" fill="#E8402A" stroke="#8A2015" stroke-width="1.2"/>
+</g>
+</svg>

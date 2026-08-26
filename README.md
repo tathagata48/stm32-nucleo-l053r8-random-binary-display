@@ -39,6 +39,20 @@ Register (IDR)** using a bit-band-style single-bit read macro.
 
 The 4-bit random value maps bits 0–2 to PB0–PB2 and bit 3 to PB10.
 
+### Connection diagram
+
+Each LED branch: pin → 330 Ω resistor → LED long leg; LED short leg → breadboard
+blue (−) rail. The blue button B1 (PC13) is on the Nucleo board itself, and the
+red button uses the MCU's internal pull-up (no external resistor).
+
+![Connection diagram — random binary display on NUCLEO-L053R8](docs/connection-diagram.svg)
+
+### Binary display reference
+
+All 16 possible LED patterns (filled = LED on; PB10 is the MSB, PB0 the LSB):
+
+![Binary display reference — all 16 LED patterns](docs/binary-reference.svg)
+
 ## Randomness
 
 The STM32L053R8 has no hardware RNG. A free-running counter is sampled at the
