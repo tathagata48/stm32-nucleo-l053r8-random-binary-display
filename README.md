@@ -6,8 +6,7 @@ on a button press, and a second button clears all LEDs.
 
 ## Demo
 
-<!-- DEMO_GIF -->
-_Demo coming soon._
+![Demo — blue button shows a random number in binary, red button clears the LEDs](docs/demo.gif)
 
 ## Program description
 
