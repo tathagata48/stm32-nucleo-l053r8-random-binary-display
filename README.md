@@ -4,6 +4,11 @@ A bare-metal (register-level) STM32 project for the **NUCLEO-L053R8** board
 (STM32L053R8, Cortex-M0+). LEDs display the binary notation of a random number
 on a button press, and a second button clears all LEDs.
 
+## Demo
+
+<!-- DEMO_GIF -->
+_Demo coming soon._
+
 ## Program description
 
 - **Blue button (B1, on-board, PC13)** — generates a random 4-bit number and
@@ -47,3 +52,11 @@ your preferred tool. Source of interest: [`Core/Src/main.c`](Core/Src/main.c).
 
 The `Debug/` build output and IDE `*.launch` files are intentionally excluded
 from version control.
+
+## License
+
+This project's own code is released under the [MIT License](LICENSE).
+
+The vendored STMicroelectronics HAL and CMSIS sources under `Drivers/` are
+distributed under their respective ST / Arm licenses (see the `LICENSE.txt`
+and `License.md` files within those folders).
