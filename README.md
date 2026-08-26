@@ -59,6 +59,13 @@ The STM32L053R8 has no hardware RNG. A free-running counter is sampled at the
 moment a button is pressed to seed an `xorshift32` PRNG, making the result
 effectively unpredictable in practice.
 
+## Program flow
+
+The main loop increments a free-running counter, then polls both buttons via the
+IDR each pass; every path returns to the top of the loop.
+
+![Program flow diagram](docs/program-flow.svg)
+
 ## Building
 
 Open the project in **STM32CubeIDE** and build, or flash the resulting ELF with
